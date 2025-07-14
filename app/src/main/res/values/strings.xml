@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">22F3272SMD_PROJECT</string>
+    <string name="freeze_frame">Freeze Frame</string>
+    <string name="detected_objects_will_appear_here">Detected objects will appear here</string>
+    <string name="capture">Capture</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="export_labels">Export Labels</string>
+</resources>

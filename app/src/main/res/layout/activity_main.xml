@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_image"
+    tools:context=".MainActivity">
+
+
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_image"
+            android:contentDescription="@null"
+            android:adjustViewBounds="true" />
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="24dp"
+            android:elevation="6dp"
+            android:gravity="center_horizontal">
+
+
+
+
+    <TextView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ML Kit Android App"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/button_text_recognition"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Text Detection"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#4C7376"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_face_detection"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Face Detection"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#4C7376"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_barcode_scanning"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Barcode Detection"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#4C7376"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_object_detection"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Object Detection"
+            android:backgroundTint="#4C7376"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>
